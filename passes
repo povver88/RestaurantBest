@@ -4,3 +4,19 @@ Avacode:
 domain: 
 
    http://cs50490.tmweb.ru
+
+
+
+
+Paul's post request:
+
+
+
+     axios({
+       method: 'post',
+       url: '/user/12345',
+       data: {
+         firstName: 'Fred',
+         lastName: 'Flintstone'
+       }
+     });
