@@ -14,7 +14,7 @@ Paul's post request:
 
      axios({
        method: 'post',
-       url: '/user/12345',
+       url: 'http://localhost:7071/api/LogIn',
        data: {
          firstName: 'Fred',
          lastName: 'Flintstone'
