@@ -95,7 +95,7 @@ div.btn{
   color: #86ce8e;
 }
 
-#cart svg {
+#cart img {
   width: 1.25vmax;
   height: 1.16vmax;
   margin-right: 1.5vmax;
@@ -106,7 +106,7 @@ div.btn{
   color: #fff;
 }
 
- #cart:hover svg {
+ #cart:hover img {
   fill: #fff;
 }
 
@@ -183,7 +183,7 @@ main{
 
 #load_more {
   border: none;
-  width: 100%;
+  width: 88%;
   border-radius: 0.33vw;
   color: #fff;
   background-color: #b8c6c7;
@@ -277,13 +277,13 @@ main{
   cursor: pointer;
 }
 
-.title_box svg {
-  width: 0.41vmax;
+.title_box img {
+  width: 0.6vmax;
   height: 0.66vmax;
   fill: #ccc;
 }
 
-.title_box.open svg {
+.title_box.open img {
   fill: #838d8f;
   transform: rotate(90deg);
 }
