@@ -1,0 +1,22 @@
+Avacode:
+ login: guvunayex@zippiex.com
+
+domain: 
+
+   http://cs50490.tmweb.ru
+
+
+
+
+Paul's post request:
+
+
+
+     axios({
+       method: 'post',
+       url: 'http://localhost:7071/api/LogIn',
+       data: {
+         firstName: 'Fred',
+         lastName: 'Flintstone'
+       }
+     });
