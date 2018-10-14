@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <script src="js/jquery-1.8.3.js"></script>
+  <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+  <script src="js/control.js"></script>
+
+
+</head>
+
+<body>
+  <div id="cart_box" class="anime main_flex__nowrap flex__jcontent_between flex__align-items_center">
+    <div class="title_cart main_flex__nowrap flex__jcontent_between flex__align-items_center">
+      <p>Ur Cart</p>
+      <svg version="1.1" id="next" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+        <g>
+          <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+      		c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z
+      		" />
+
+      </svg>
+
+    </div>
+    <div class="content_cart"></div>
+    <button id="order" type="button">Order</button>
+  </div>
+
+  <header class="dark">
+    <div id="top">
+      <div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_between">
+
+        <div class="main_flex__nowrap flex__align-items_center">
+
+          <div id="sign" class="btn main_flex__nowrap flex__align-items_center flex__jcontent_between anime">
+
+            <svg id="SVGDoc" width="18" height="17" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:avocode="https://avocode.com/" viewBox="0 0 18 17">
+              <defs>
+                <path d="M143.29906,59.18169c0,-1.13485 -1.71053,-1.7647 -2.57478,-2.107c-0.52214,-0.21579 -1.06244,-0.4321 -1.58451,-0.66604c-0.70224,-0.32415 -1.4225,-0.70212 -1.94457,-1.2963c-0.1801,-0.21589 -0.28811,-0.36045 -0.28811,-0.64852c0,-0.41406 0.108,-0.82811 0.19813,-1.22413c0.14405,-0.61222 0.45004,-1.1167 0.70217,-1.69284c0.28803,-0.71975 0.39611,-1.47611 0.54016,-2.21432c0.05407,-0.32426 0.14405,-0.63037 0.14405,-0.95463c0,-2.23247 -1.1703,-4.1948 -3.6011,-4.1948c-2.4308,0 -3.6011,1.96234 -3.6011,4.1948c0,0.32426 0.10808,0.63037 0.16201,0.95463c0.16208,0.73821 0.2522,1.49457 0.55826,2.21432c0.25206,0.57613 0.57614,1.08062 0.70224,1.69284c0.10793,0.39601 0.19798,0.81007 0.19798,1.22413c0,0.28807 -0.108,0.43262 -0.28803,0.64852c-0.52228,0.59418 -1.24247,0.97215 -1.94464,1.2963c-0.52221,0.25198 -1.06223,0.45025 -1.58443,0.66604c-0.86424,0.36035 -2.5928,0.97215 -2.5928,2.107v1.80026h16.79907v-1.04443v-0.75583z"
+                  id="Path-0" />
+              </defs>
+              <desc>Generated with Avocode.</desc>
+              <g transform="matrix(1,0,0,1,-126,-44)">
+                <g>
+                  <title>Icon</title>
+                  <use xlink:href="#Path-0" />
+                </g>
+              </g>
+            </svg>
+            SIGN IN
+          </div>
+          <div id="location">
+            Location: <span>UKRAINE</span>
+          </div>
+
+        </div>
+
+        <div id="logo">
+          <a href="#"></a>
+          <img src="img/logo.png" alt="logo">
+        </div>
+
+        <div class="main_flex__nowrap flex__align-items_center">
+
+          <div id="currency">
+            Currency: <span>US DOLLAR</span>
+          </div>
+
+          <div id="cart" class="btn anime btn main_flex__nowrap flex__align-items_center flex__jcontent_between">
+            <img src="img/shopping-cart.png" alt="cart">
+            CART
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div id="menu">
+      <div class="wrap main_flex__nowrap flex__jcontent_center flex__align-items_center">
+        <nav id="main_nav">
+          <li><a href="#">PIZZA</a></li>
+          <li><a href="#">POTABLE</a></li>
+          <li><a href="#">DESSERT</a></li>
+          <li><a href="#">PRESENTS</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </nav>
+        <div id="search_panel">
+          <input type="text" placeholder="Search">
+        </div>
+        <div id="search_button">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 56.966 56.966" style="enable-background:new 0 0 56.966 56.966;" xml:space="preserve">
+            <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
+          	s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92
+          	c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17
+          	s-17-7.626-17-17S14.61,6,23.984,6z" />
+          </svg>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <footer>
+    <div class="wrap">
+
+      <div>
+        <nav id="footer_nav" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+          <li><a href="#">LEGAL INFO</a></li>
+          <li><a href="#">TERMS</a></li>
+          <li><a href="#">DATA PRIVACY</a></li>
+          <li><a href="#">SIZING</a></li>
+          <li><a href="#">SHIPPING</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </nav>
+      </div>
+      <div id="newsletter" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+        <p>NEWSLETTER</p>
+        <input type="text" placeholder="E-mail">
+      </div>
+      <div>
+        <ul id="soc_list" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+          <li><a target="_blank" href="#"><svg viewBox="0 0 512 512">
+                <path d="M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z" /></svg></a></li>
+          <li><a target="_blank" href="#"><svg viewBox="0 0 512 512">
+                <path d="M254.8 171.8c6.4 8.9 9.6 19.6 9.6 32 0 12.8-3.2 23.1-9.7 30.9 -3.6 4.4-9 8.4-16 12 10.7 3.9 18.8 10.1 24.2 18.5 5.5 8.4 8.2 18.7 8.2 30.7 0 12.4-3.1 23.6-9.3 33.5 -4 6.6-8.9 12.1-14.9 16.5 -6.7 5.1-14.6 8.6-23.7 10.5 -9.1 1.9-19 2.8-29.6 2.8H99.1V149.5h101.4C226.1 149.8 244.2 157.3 254.8 171.8zM140.9 185.9v46.3h51c9.1 0 16.5-1.7 22.2-5.2 5.7-3.5 8.5-9.6 8.5-18.4 0-9.8-3.8-16.2-11.3-19.4 -6.5-2.2-14.7-3.3-24.8-3.3H140.9zM140.9 266.9v55.9h50.9c9.1 0 16.2-1.2 21.2-3.7 9.2-4.6 13.8-13.3 13.8-26.2 0-10.9-4.5-18.4-13.4-22.5 -5-2.3-12-3.5-21-3.6H140.9L140.9 266.9zM396.4 207.3c10.8 4.8 19.8 12.5 26.8 23 6.4 9.2 10.5 19.9 12.4 32.1 1.1 7.1 1.5 17.4 1.3 30.8H323.9c0.6 15.6 6 26.5 16.2 32.7 6.2 3.9 13.6 5.8 22.4 5.8 9.2 0 16.8-2.4 22.5-7.1 3.2-2.6 5.9-6.1 8.4-10.7h41.4c-1.1 9.2-6.1 18.5-15 28 -13.9 15.1-33.4 22.6-58.4 22.6 -20.6 0-38.9-6.4-54.6-19.1 -15.8-12.7-23.7-33.4-23.7-62.1 0-26.9 7.1-47.5 21.4-61.8 14.2-14.3 32.7-21.5 55.5-21.5C373.4 200 385.6 202.4 396.4 207.3zM335.7 242.3c-5.7 5.9-9.3 13.9-10.8 24h69.9c-0.7-10.8-4.3-18.9-10.8-24.5 -6.5-5.6-14.5-8.4-24.1-8.4C349.5 233.4 341.4 236.4 335.7 242.3zM402.8 161.5h-91.2V182.7h91.2V161.5z" /></svg></a></li>
+          <li><a target="_blank" href="#"><svg viewBox="0 0 512 512">
+                <path d="M179.7 237.6L179.7 284.2 256.7 284.2C253.6 304.2 233.4 342.9 179.7 342.9 133.4 342.9 95.6 304.4 95.6 257 95.6 209.6 133.4 171.1 179.7 171.1 206.1 171.1 223.7 182.4 233.8 192.1L270.6 156.6C247 134.4 216.4 121 179.7 121 104.7 121 44 181.8 44 257 44 332.2 104.7 393 179.7 393 258 393 310 337.8 310 260.1 310 251.2 309 244.4 307.9 237.6L179.7 237.6 179.7 237.6ZM468 236.7L429.3 236.7 429.3 198 390.7 198 390.7 236.7 352 236.7 352 275.3 390.7 275.3 390.7 314 429.3 314 429.3 275.3 468 275.3" /></svg></a></li>
+        </ul>
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
