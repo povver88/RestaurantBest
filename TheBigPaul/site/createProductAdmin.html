@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/stylesforcreateadmin.css">
+  <link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <script src="js/jquery-1.8.3.js"></script>
+  <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+  <script src="js/control.js"></script>
+
+
+</head>
+
+<body>
+  <div id="cart_box" class="anime main_flex__nowrap flex__jcontent_between flex__align-items_center">
+    <div class="title_cart main_flex__nowrap flex__jcontent_between flex__align-items_center">
+      <p>Ur Cart</p>
+      <svg version="1.1" id="next" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+        <g>
+          <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
+      		c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z
+      		" />
+      
+      </svg>
+
+    </div>
+    <div class="content_cart"></div>
+    <button id="order" type="button">Order</button>
+  </div>
+
+  <header class="dark">
+    <div id="top">
+      <div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_between">
+
+        <div class="main_flex__nowrap flex__align-items_center">
+
+          <div id="sign" class="btn main_flex__nowrap flex__align-items_center flex__jcontent_between anime">
+
+            <svg id="SVGDoc" width="18" height="17" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns:avocode="https://avocode.com/" viewBox="0 0 18 17">
+              <defs>
+                <path d="M143.29906,59.18169c0,-1.13485 -1.71053,-1.7647 -2.57478,-2.107c-0.52214,-0.21579 -1.06244,-0.4321 -1.58451,-0.66604c-0.70224,-0.32415 -1.4225,-0.70212 -1.94457,-1.2963c-0.1801,-0.21589 -0.28811,-0.36045 -0.28811,-0.64852c0,-0.41406 0.108,-0.82811 0.19813,-1.22413c0.14405,-0.61222 0.45004,-1.1167 0.70217,-1.69284c0.28803,-0.71975 0.39611,-1.47611 0.54016,-2.21432c0.05407,-0.32426 0.14405,-0.63037 0.14405,-0.95463c0,-2.23247 -1.1703,-4.1948 -3.6011,-4.1948c-2.4308,0 -3.6011,1.96234 -3.6011,4.1948c0,0.32426 0.10808,0.63037 0.16201,0.95463c0.16208,0.73821 0.2522,1.49457 0.55826,2.21432c0.25206,0.57613 0.57614,1.08062 0.70224,1.69284c0.10793,0.39601 0.19798,0.81007 0.19798,1.22413c0,0.28807 -0.108,0.43262 -0.28803,0.64852c-0.52228,0.59418 -1.24247,0.97215 -1.94464,1.2963c-0.52221,0.25198 -1.06223,0.45025 -1.58443,0.66604c-0.86424,0.36035 -2.5928,0.97215 -2.5928,2.107v1.80026h16.79907v-1.04443v-0.75583z"
+                  id="Path-0" />
+              </defs>
+              <desc>Generated with Avocode.</desc>
+              <g transform="matrix(1,0,0,1,-126,-44)">
+                <g>
+                  <title>Icon</title>
+                  <use xlink:href="#Path-0" />
+                </g>
+              </g>
+            </svg>
+            SIGN IN
+          </div>
+          <div id="location">
+            Location: <span>UKRAINE</span>
+          </div>
+
+        </div>
+
+        <div id="logo">
+          <a href="#"></a>
+          <img src="img/logo.png" alt="logo">
+        </div>
+
+        <div class="main_flex__nowrap flex__align-items_center">
+
+          <div id="currency">
+            Currency: <span>US DOLLAR</span>
+          </div>
+
+          <div id="cart" class="btn anime btn main_flex__nowrap flex__align-items_center flex__jcontent_between">
+            <img src="img/shopping-cart.png" alt="cart">
+            CART
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+   
+
+  </header>
+
+  <main>
+    <table>
+        <tr>
+        <th>Продукт</th>
+        <th>Ціна</th>
+        <th>Кількість</th>
+        </tr>
+        <tr>
+        <td>Картопля</td>
+        <td>$300</td>
+        <td>3</td>
+        </tr>
+        <tr>
+        <td>Сало</td>
+        <td>$150</td>
+        <td>10</td>
+        </tr>
+        <tr>
+        <td>.....</td>
+        <td>$200</td>
+        <td>15</td>
+        </tr>
+        <tr>
+        <td>....</td>
+        <td>$175</td>
+        <td>60</td>
+        </tr>
+        </table>
+</main>
+  </footer>
+ 
+</body>
+
+</html>

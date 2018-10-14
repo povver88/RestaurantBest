@@ -556,11 +556,3 @@ footer{
 .back {
   transform: rotateY(180deg);
 }
-
-.ultra-right {
-margin-right: 10vh;
-}
-
-.second-e {
-  margin-top: 1vmax;
-}
